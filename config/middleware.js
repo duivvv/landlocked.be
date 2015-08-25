@@ -1,7 +1,5 @@
 module.exports = function(app, express){
 
-	require('dotenv').load();
-
 	var compression = require("compression");
 	var body_parser = require('body-parser');
 	var express_session = require('express-session');
