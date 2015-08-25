@@ -14,7 +14,7 @@ require('./controllers/pages.js')(app);
 /** MODULES **/
 require('./modules/cursors.js')(server);
 
-var port = process.env.PORT;
+var port = process.env.PORT || 3000;
 
 server.listen(port, function() {
 	console.log('Server listening at port', port, 'in', process.env.NODE_ENV, 'mode');
