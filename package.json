@@ -1,0 +1,19 @@
+{
+  "name": "landlocked_be",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "root@188.166.68.230:/root/landlocked_be/landlocked.git"
+  },
+  "keywords": [],
+  "author": "Geoffrey Dhuyvetters <geoffrey.dhuyvetters@gmail.com> (http://landlocked.herokuapp.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
