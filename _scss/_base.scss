@@ -1,0 +1,23 @@
+@import 'reset';
+@import 'mixins';
+
+//vars
+$accent-color: #00f;
+$text-color: #333;
+$background-color: #fff;
+
+//font-face
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: 'Effra', sans-serif;
+	font-size: 62.5%;
+	height: 100%;
+	letter-spacing: 1.1px;
+	background-repeat: repeat;
+}
+
+@include border-box-default;

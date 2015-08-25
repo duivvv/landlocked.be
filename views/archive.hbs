@@ -1,0 +1,20 @@
+{{#section "header"}}
+	<link rel="stylesheet" href="/css/screen.css"/>
+{{/section}}
+
+<section class="archive">
+	<header>
+		<h1 class="subtitle">Archive</h1>
+	</header>
+	<div class="small">bookmarks, findings, stars...</div>
+	<ul>
+		{{#each bookmarks}}
+			<li><a href='{{href}}'>{{description}}</a></li>
+		{{/each}}
+		<li class="last"><a href="https://pinboard.in/u:duivvv/t:a">more...</a></li>
+	</ul>
+</section>
+
+{{#section "scripts"}}
+	<script src="/js/archive.js"></script>
+{{/section}}
